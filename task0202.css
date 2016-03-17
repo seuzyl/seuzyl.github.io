@@ -1,0 +1,143 @@
+body{
+	background-color: rgb(222,222,222);
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	background-color: #444;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.header-pic{
+	float: left;
+	margin-left: 30px;
+}
+.header-nav{
+	float: right;
+	margin-right: 40px;
+}
+.header-nav li{
+	display: inline;
+	padding: 20px;
+}
+.header-nav li a{
+	font-size: 14px;
+	color: #FFF;
+	text-decoration: none;
+}
+.header-nav li a:hover{
+	color: gray;
+}
+
+.section{
+	padding: 20px;
+	background-color: #FFF;
+	font-size: 14px; 
+	line-height: 200%;
+	text-indent: 2em;
+	margin: 25px;
+	box-shadow: 2px 2px 5px #888;
+}
+.text-pic{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.image{
+	text-align: center;
+	padding: 10px;
+	width: 400px;
+	height: 300px;
+	border: 1px solid gray;
+	font-size: 20px;
+	margin: 20px;
+}
+.spring{
+	width: 300px;
+	height: 180px;
+	padding: 20px;
+}
+
+table{
+	border:1px solid #CCCCCC;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-weight: bold;
+	border-collapse: collapse;/*合并边框*/
+}
+td{
+	border:1px solid #CCCCCC;
+	padding: 5px;
+}
+/*table表头样式*/
+.th{
+	background-color: rgb(51,51,51);
+	color: white;
+	border:1px solid #CCCCCC;
+}
+/*table表尾样式*/
+.sum{
+	background-color: rgb(204,204,204);
+}
+thead{width: 1024px;}
+
+.paiming{
+	font-weight: bold;
+}
+
+#user_info{
+	width: 100%;
+	margin-top: 10px;
+}
+
+label{
+	display: inline-block;
+	width: 40%;
+	text-align: right;
+	margin-right: 10px;
+}
+
+.info_box{
+	margin-top: 10px;
+}
+/*email*/
+.form_block{
+	display: inline-block;
+	vertical-align: top;
+}
+.request{
+	color: gray;
+	font-size: 10px;
+}
+
+textarea{
+	height: 100px;
+	width: 50%;
+	vertical-align: text-top;
+}
+
+.submit{
+	width: 100%;
+	border-radius: 10px;
+	background-color: rgb(51,85,208);
+	color: white;
+	font-weight: bold;
+	height: 40px;
+}
+
+.footer{
+	margin-top: 20px;
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	text-align: center;
+	font-family: "微软雅黑";
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 40px;
+}
+
