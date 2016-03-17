@@ -82,6 +82,7 @@ td{
 .sum{
 	background-color: rgb(204,204,204);
 }
+
 thead{width: 1024px;}
 
 .paiming{
@@ -106,6 +107,7 @@ label{
 /*email*/
 .form_block{
 	display: inline-block;
+	margin-left: -2em;
 	vertical-align: top;
 }
 .request{
