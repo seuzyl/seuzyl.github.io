@@ -1,0 +1,91 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	min-width: 800px;
+}
+#header{
+	height:100px;
+	width: 100%;
+	background-color: #0BF;
+}
+.header-pic{
+	float: left;
+	margin-left: 200px;
+	margin-top: 10px; 
+}
+#header ul{
+	float:right;
+	list-style: none;
+	margin-top: 40px;
+}
+#header li{
+	float:left;
+	margin-right: 40px;
+}
+#header li a{
+	color:#FAFAD2;
+	text-decoration: none;
+}
+#header li a:hover{
+	font-weight: bold;
+}
+.paragra{
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 190px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.list1{
+	margin-left: 200px;
+}
+.article1{
+	overflow: hidden;
+	width: 70%;
+	margin: 0 auto;
+}
+.article1 .pic{
+	float: left;
+	margin: 10px 30px;
+	padding: 30px;
+}
+/*.article1 .pic img{
+	height: 300px;
+	width: 250px;
+}*/
+.list2{
+	margin-left: 200px;
+	margin-bottom: 20px;
+	background-color: #DDD;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+}
+.article2{
+	overflow: hidden;
+	width: 70%;
+	margin: 20px auto;
+}
+.article2 .pic p{
+	margin-top: 8px;
+	text-align: center;
+}
+.article2 .pic a{
+	text-decoration: none;
+	color: #AAA;
+}
+.article2 .pic{
+	float: left;
+	border: 1px solid #DDD;
+	padding: 60px;
+}
+#footer{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#footer p{
+	text-align: center;
+	font-size: 15px;
+}
